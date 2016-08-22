@@ -4,6 +4,6 @@ lazy val root = (project in file(".")).
     version := "0.1.0",
     scalaVersion := "2.11.8",
     libraryDependencies ++= Seq(
-      "com.typesafe.akka" %% "akka-http-core" % "2.4.9-RC2"
+      "com.typesafe.akka" %% "akka-http-core" % "2.4.9"
     )
   )
